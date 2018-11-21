@@ -3,13 +3,13 @@ This model is based on QANet, but it has 2 submodel. In this folder, you can see
 
 Version | Kernel Size Char | Kernel Size Conv | Hidden Size
 ---|---|---|---
-ver20| 2 | NON | 96
-ver60| 2 | 4 |96
+ver20| 2 | 7 | 96
+ver60| 2 | 7 |96
 ver646| 1| 4 | 64
 
 Kernel Size Char: the kernel size used in char embedding layer.
 
-kernel Size Conv : the kernel size used in output layer
+kernel Size Conv : the kernel size used in model encoder layer
 
 all of them use params below:
 * w2v ： jwe_size300.txt，this is a word embedding trained by spliting Chinese characters into components, for example, we split “好” into "女" and "子". My partner Zhang does this excellent job. You can download it from [HERE](https://pan.baidu.com/s/1eKa7F-OBGQgLSsOaTtJDxg), the password is "qt16".
