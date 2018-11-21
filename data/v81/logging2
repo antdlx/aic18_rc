@@ -1,0 +1,89 @@
+2018-11-20 23:28:26,188 - brc - INFO - Running with args : Namespace(algo='BIDAF', batch_size=4, dev_files=['../data/devset/dev_pre.json'], dropout_keep_prob=1, embed_size=300, epochs=6, evaluate=False, gpu='3', hidden_size=150, input='../data/v81/testset/test_mini.json', learning_rate=0.0005, load_epoch=1, log_path='../data/v81/logging2', max_a_len=10, max_p_len=500, max_q_len=30, mode='prepro', model_dir='../data/v81/models/', optim='adam', predict=False, prepare=True, result_dir='../data/v81/results/', summary_dir='../data/v81/summary/', test_files=['../data/v81/testset/test_pre.json'], train=False, train_files=['../data/trainset/train_pre.json'], vocab_dir='../data/v81/vocab/', weight_decay=0)
+2018-11-20 23:28:26,188 - brc - INFO - checking data file...
+2018-11-20 23:28:26,188 - brc - INFO - establish folder...
+2018-11-20 23:28:26,188 - brc - INFO - establish vocab...
+2018-11-20 23:28:26,191 - brc - INFO - train 119 ques.
+2018-11-20 23:28:26,191 - brc - INFO - dev 10 ques
+2018-11-20 23:28:26,191 - brc - INFO - test 10 ques
+2018-11-20 23:28:26,198 - brc - INFO - filte 1595 words, final num is 899
+2018-11-20 23:28:26,198 - brc - INFO - use w2v...
+2018-11-20 23:28:46,716 - brc - INFO - Running with args : Namespace(algo='BIDAF', batch_size=4, dev_files=['../data/devset/dev_pre.json'], dropout_keep_prob=1, embed_size=300, epochs=6, evaluate=False, gpu='3', hidden_size=150, input='../data/v81/testset/test_mini.json', learning_rate=0.0005, load_epoch=1, log_path='../data/v81/logging2', max_a_len=10, max_p_len=500, max_q_len=30, mode='prepro', model_dir='../data/v81/models/', optim='adam', predict=False, prepare=True, result_dir='../data/v81/results/', summary_dir='../data/v81/summary/', test_files=['../data/v81/testset/test_pre.json'], train=False, train_files=['../data/trainset/train_pre.json'], vocab_dir='../data/v81/vocab/', weight_decay=0)
+2018-11-20 23:28:46,716 - brc - INFO - checking data file...
+2018-11-20 23:28:46,716 - brc - INFO - establish folder...
+2018-11-20 23:28:46,716 - brc - INFO - establish vocab...
+2018-11-20 23:28:46,719 - brc - INFO - train 119 ques.
+2018-11-20 23:28:46,720 - brc - INFO - dev 10 ques
+2018-11-20 23:28:46,720 - brc - INFO - test 10 ques
+2018-11-20 23:28:46,727 - brc - INFO - filte 1595 words, final num is 899
+2018-11-20 23:28:46,727 - brc - INFO - use w2v...
+2018-11-20 23:28:47,277 - brc - INFO - save word table...
+2018-11-20 23:28:47,281 - brc - INFO - finish prepro!
+2018-11-20 23:29:51,975 - brc - INFO - Running with args : Namespace(algo='BIDAF', batch_size=4, dev_files=['../data/devset/dev_pre.json'], dropout_keep_prob=1, embed_size=300, epochs=6, evaluate=False, gpu='3', hidden_size=150, input='../data/trainset/train_mini.json', learning_rate=0.0005, load_epoch=1, log_path='../data/v81/logging2', max_a_len=10, max_p_len=500, max_q_len=30, mode='train', model_dir='../data/v81/models/', optim='adam', predict=False, prepare=False, result_dir='../data/v81/results/', summary_dir='../data/v81/summary/', test_files=['../data/v81/testset/test_pre.json'], train=True, train_files=['../data/trainset/train_pre.json'], vocab_dir='../data/v81/vocab/', weight_decay=0)
+2018-11-20 23:29:51,976 - brc - INFO - Namespace(algo='BIDAF', batch_size=4, dev_files=['../data/devset/dev_pre.json'], dropout_keep_prob=1, embed_size=300, epochs=6, evaluate=False, gpu='3', hidden_size=150, input='../data/trainset/train_mini.json', learning_rate=0.0005, load_epoch=1, log_path='../data/v81/logging2', max_a_len=10, max_p_len=500, max_q_len=30, mode='train', model_dir='../data/v81/models/', optim='adam', predict=False, prepare=False, result_dir='../data/v81/results/', summary_dir='../data/v81/summary/', test_files=['../data/v81/testset/test_pre.json'], train=True, train_files=['../data/trainset/train_pre.json'], vocab_dir='../data/v81/vocab/', weight_decay=0)
+2018-11-20 23:29:51,976 - brc - INFO - Namespace(algo='BIDAF', batch_size=4, dev_files=['../data/devset/dev_pre.json'], dropout_keep_prob=1, embed_size=300, epochs=6, evaluate=False, gpu='3', hidden_size=150, input='../data/trainset/train_mini.json', learning_rate=0.0005, load_epoch=1, log_path='../data/v81/logging2', max_a_len=10, max_p_len=500, max_q_len=30, mode='train', model_dir='../data/v81/models/', optim='adam', predict=False, prepare=False, result_dir='../data/v81/results/', summary_dir='../data/v81/summary/', test_files=['../data/v81/testset/test_pre.json'], train=True, train_files=['../data/trainset/train_pre.json'], vocab_dir='../data/v81/vocab/', weight_decay=0)
+2018-11-20 23:29:51,976 - brc - INFO - loading datasets and vocab.data...
+2018-11-20 23:29:51,976 - brc - INFO - loading datasets and vocab.data...
+2018-11-20 23:29:51,981 - brc - INFO - train 119 ques.
+2018-11-20 23:29:51,981 - brc - INFO - train 119 ques.
+2018-11-20 23:29:51,982 - brc - INFO - dev 10 ques
+2018-11-20 23:29:51,982 - brc - INFO - dev 10 ques
+2018-11-20 23:29:51,982 - brc - INFO - changing to id...
+2018-11-20 23:29:51,982 - brc - INFO - changing to id...
+2018-11-20 23:29:51,986 - brc - INFO - init model...
+2018-11-20 23:29:51,986 - brc - INFO - init model...
+2018-11-20 23:29:58,121 - brc - INFO - building graph used: 6.1334497928619385  secs
+2018-11-20 23:29:58,121 - brc - INFO - building graph used: 6.1334497928619385  secs
+2018-11-20 23:29:59,100 - brc - INFO - training model...
+2018-11-20 23:29:59,100 - brc - INFO - training model...
+2018-11-20 23:29:59,101 - brc - INFO - The 1 time to train model 
+2018-11-20 23:29:59,101 - brc - INFO - The 1 time to train model 
+2018-11-20 23:30:36,768 - brc - INFO - This batch average train loss 1 is 1.0019565925878637
+2018-11-20 23:30:36,768 - brc - INFO - This batch average train loss 1 is 1.0019565925878637
+2018-11-20 23:30:38,496 - brc - INFO - dev acc 0.6
+2018-11-20 23:30:38,496 - brc - INFO - dev acc 0.6
+2018-11-20 23:30:38,496 - brc - INFO - dev average loss is 0.9330900430679321
+2018-11-20 23:30:38,496 - brc - INFO - dev average loss is 0.9330900430679321
+2018-11-20 23:30:39,873 - brc - INFO - save model to ../data/v81/models/, prefix is BIDAF_1.
+2018-11-20 23:30:39,873 - brc - INFO - save model to ../data/v81/models/, prefix is BIDAF_1.
+2018-11-20 23:30:39,874 - brc - INFO - The 2 time to train model 
+2018-11-20 23:30:39,874 - brc - INFO - The 2 time to train model 
+2018-11-20 23:31:13,823 - brc - INFO - This batch average train loss 2 is 0.8855785507113993
+2018-11-20 23:31:13,823 - brc - INFO - This batch average train loss 2 is 0.8855785507113993
+2018-11-20 23:31:14,837 - brc - INFO - dev acc 0.5
+2018-11-20 23:31:14,837 - brc - INFO - dev acc 0.5
+2018-11-20 23:31:14,837 - brc - INFO - dev average loss is 0.9231869220733643
+2018-11-20 23:31:14,837 - brc - INFO - dev average loss is 0.9231869220733643
+2018-11-20 23:31:16,009 - brc - INFO - save model to ../data/v81/models/, prefix is BIDAF_2.
+2018-11-20 23:31:16,009 - brc - INFO - save model to ../data/v81/models/, prefix is BIDAF_2.
+2018-11-20 23:31:16,010 - brc - INFO - The 3 time to train model 
+2018-11-20 23:31:16,010 - brc - INFO - The 3 time to train model 
+2018-11-20 23:31:50,170 - brc - INFO - This batch average train loss 3 is 0.709995542003327
+2018-11-20 23:31:50,170 - brc - INFO - This batch average train loss 3 is 0.709995542003327
+2018-11-20 23:31:51,016 - brc - INFO - dev acc 0.5
+2018-11-20 23:31:51,016 - brc - INFO - dev acc 0.5
+2018-11-20 23:31:51,016 - brc - INFO - dev average loss is 0.8982053995132446
+2018-11-20 23:31:51,016 - brc - INFO - dev average loss is 0.8982053995132446
+2018-11-20 23:31:52,128 - brc - INFO - save model to ../data/v81/models/, prefix is BIDAF_3.
+2018-11-20 23:31:52,128 - brc - INFO - save model to ../data/v81/models/, prefix is BIDAF_3.
+2018-11-20 23:31:52,128 - brc - INFO - The 4 time to train model 
+2018-11-20 23:31:52,128 - brc - INFO - The 4 time to train model 
+2018-11-20 23:32:30,965 - brc - INFO - Running with args : Namespace(algo='BIDAF', batch_size=4, dev_files=['../data/devset/dev_pre.json'], dropout_keep_prob=1, embed_size=300, epochs=3, evaluate=True, gpu='3', hidden_size=150, input='../data/devset/dev_mini.json', learning_rate=0.0005, load_epoch=1, log_path='../data/v81/logging2', max_a_len=10, max_p_len=500, max_q_len=30, mode='valid', model_dir='../data/v81/models/', optim='adam', predict=False, prepare=False, result_dir='../data/v81/results/', summary_dir='../data/v81/summary/', test_files=['../data/v81/testset/test_pre.json'], train=False, train_files=['../data/trainset/train_pre.json'], vocab_dir='../data/v81/vocab/', weight_decay=0)
+2018-11-20 23:32:30,965 - brc - INFO - loading datasets and vocab.data...
+2018-11-20 23:32:30,968 - brc - INFO - dev 10 ques
+2018-11-20 23:32:30,968 - brc - INFO - change txt to id list
+2018-11-20 23:32:30,968 - brc - INFO - reloading model...
+2018-11-20 23:32:37,216 - brc - INFO - building graph used: 6.246552228927612  secs
+2018-11-20 23:32:38,491 - brc - INFO - reload ../data/v81/models/ model, prefix BIDAF_3
+2018-11-20 23:32:38,491 - brc - INFO - valid model...
+2018-11-20 23:32:40,409 - brc - INFO - save valid_v81 ans to ../data/v81/results/valid_v81.txt
+2018-11-20 23:32:40,411 - brc - INFO - dev loss is: (0.8982053995132446,)
+2018-11-20 23:32:40,411 - brc - INFO - save predict ans to ../data/v81/results/
+2018-11-20 23:33:13,071 - brc - INFO - Running with args : Namespace(algo='BIDAF', batch_size=4, dev_files=['../data/devset/dev_pre.json'], dropout_keep_prob=1, embed_size=300, epochs=3, evaluate=False, gpu='3', hidden_size=150, input='../data/devset/dev_mini.json', learning_rate=0.0005, load_epoch=1, log_path='../data/v81/logging2', max_a_len=10, max_p_len=500, max_q_len=30, mode='test', model_dir='../data/v81/models/', optim='adam', predict=True, prepare=False, result_dir='../data/v81/results/', summary_dir='../data/v81/summary/', test_files=['../data/v81/testset/test_pre.json'], train=False, train_files=['../data/trainset/train_pre.json'], vocab_dir='../data/v81/vocab/', weight_decay=0)
+2018-11-20 23:33:13,071 - brc - INFO - loading datasets and vocab.data...
+2018-11-20 23:33:13,074 - brc - INFO - test 10 ques
+2018-11-20 23:33:13,074 - brc - INFO - change txt to id...
+2018-11-20 23:33:13,075 - brc - INFO - reloading model...
+2018-11-20 23:33:19,080 - brc - INFO - building graph used: 6.00429105758667  secs
+2018-11-20 23:33:20,293 - brc - INFO - reload ../data/v81/models/ model, prefix BIDAF_3
+2018-11-20 23:33:20,293 - brc - INFO - predict ans...
+2018-11-20 23:33:21,939 - brc - INFO - save test_v81 ans to ../data/v81/results/test_v81.txt
