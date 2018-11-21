@@ -17,7 +17,7 @@ all of them use params below:
 * query length: 30, the max length for query, i want to keep query words num below 30.
 
 If you want to know my code clearly, you should learn QANet principle first.
-And I have wrriten a blog for you :D
+And I have written a blog for you :D
 
 [彻底弄懂QANet](https://antdlx.com/qanet/)
 
