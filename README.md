@@ -22,7 +22,7 @@ This project is my code for [AiChallenger2018 Opinion Questions Machine Reading 
 ## Performance
 I train each model on one GTX1080ti for 30 epochs, and report the best Performance on dev set. We finally run Model-1 on testa, the accuracy is 73.2.
 
-Model | Accuracy
+Model | Accuracy
 ---|---
 Model-1 | 73.66
 Model-2 | 73.85
