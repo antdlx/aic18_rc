@@ -37,4 +37,4 @@ run config_xx_vxx.py. You need to set at least 2 params:
 * --mode：test/valid/train/debug
 * --input: test/valid/train file path, especially , debug mode uses train path
 
-Be careful, the results are in answers folder, but these are tmp file, you can run "vote_ser_new_word.py" to get the final answers or edit codes by yourself.
+Be careful, the results are in answers folder, but these are tmp file, you can run "vote_ser_new_word.py" to get the final answers or edit codes by yourself. And thanks for my partner Liu wrote this .py
