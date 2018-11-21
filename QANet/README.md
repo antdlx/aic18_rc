@@ -1,7 +1,7 @@
 ## Model-1 QANet
 This model is based on QANet, but it has 2 submodel. In this folder, you can see 3 version of model, ver20 belongs to submodel-1, ver60 and ver646 belong to submode-2. I use these 3 version to ensemble the model. The details of these 3 version are:
 
-Version | Kernel Size Char | Kernel Size Conv | Hidden Size
+Version | Kernel Size Char | Kernel Size Conv | Hidden Size
 ---|---|---|---
 ver20| 2 | NON | 96
 ver60| 2 | 4 |96
@@ -12,7 +12,7 @@ Kernel Size Char: the kernel size used in char embedding layer.
 kernel Size Conv : the kernel size used in output layer
 
 all of them use params below:
-* w2v ： jwe_size300.txt，this is a word embedding trained by spliting Chinese characters into components, for example, we split “好” into "女" and "子". My partner Zhang does this excellent job. You can download it from [HERE](https://pan.baidu.com/s/1eKa7F-OBGQgLSsOaTtJDxg), the password is "qt16".
+* w2v ： jwe_size300.txt，this is a word embedding trained by spliting Chinese characters into components, for example, we split “好” into "女" and "子". My partner Zhang does this excellent job. You can download it from [HERE](https://pan.baidu.com/s/1eKa7F-OBGQgLSsOaTtJDxg), the password is "qt16".
 * context length: 100, the max length for context, i want to keep context words num below 100.
 * query length: 30, the max length for query, i want to keep query words num below 30.
 
@@ -23,7 +23,7 @@ And I have wrriten a blog for you :D
 
 ## SubModel-1
 ![submodel1](http://cdn.antdlx.com/qa20.png)
-1. I add an alternatives embedding layer
+1. I add an alternatives embedding layer
 2. I change model encoder layer's encoder block num from 3 to 2
 3. I change output layer
 
