@@ -13,7 +13,7 @@
 * ver84: 用25w数据做的word2vec，使用了cosin_restart的learning rate变换方式,acc=73.74
 
 ## 模型图
-![pic1](./model/png)
+![pic1](https://github.com/antdlx/aic18_rc/blob/master/capsuleNet/model.png)
 
 ## 模型思路
 **步骤1、问题编码**
