@@ -1,5 +1,5 @@
 ## Intruduction
-This project is my code for [AiChallenger2018 Opinion Questions Machine Reading Comprehension](https://challenger.ai/competition/oqmrc2018). This project mainly has 2 models which implemented in Tensorflow.
+This project is my code for [AiChallenger2018 Opinion Questions Machine Reading Comprehension](https://challenger.ai/competition/oqmrc2018). This project mainly has 2 models which are implemented in Tensorflow.
 * Model-1 is based on QANet, but I rewrite it in some details.
 * Model-2 is based on capsuleNet which mainly from [freefuiiismyname's project](https://github.com/freefuiiismyname/capsule-mrc)
 
