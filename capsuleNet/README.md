@@ -34,6 +34,7 @@
 
 ## Usage
 download the [word2vec](https://pan.baidu.com/s/1Izg778MiUlcoqNMimWKjNQ) and put it into 'data/w2v'
+
 直接运行run**.py即可，需要注意的是你需要指定两个参数才可以：
 * --mode：test/dev/train/prepro  需要首先选择prepro模式，预处理好数据，然后可以根据需要去选择test/dev/train 模式
 * --input: 一个路径，test/dev/train模式需要输入相应的文件路径，prepro模式需要输入test的文件路径
