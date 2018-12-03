@@ -33,6 +33,7 @@
 将passage中抽取出的信息，转换为候选答案capsule。当某答案编码与passage信息相近时，信息更容易为它提供支撑；反之，它受到的支撑将减少。经过几轮的动态路由迭代过程后，最终capsule的模长代表了该答案存在的程度。Softmax后，求出每个候选答案作为答案的概率。
 
 ## Usage
+download the [word2vec](https://pan.baidu.com/s/1Izg778MiUlcoqNMimWKjNQ) and put it into 'data/w2v'
 直接运行run**.py即可，需要注意的是你需要指定两个参数才可以：
 * --mode：test/dev/train/prepro  需要首先选择prepro模式，预处理好数据，然后可以根据需要去选择test/dev/train 模式
 * --input: 一个路径，test/dev/train模式需要输入相应的文件路径，prepro模式需要输入test的文件路径
