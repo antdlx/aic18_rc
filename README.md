@@ -24,9 +24,9 @@ I train each model on one GTX1080ti for 30 epochs, and report the best Performan
 
 Model | Accuracy
 ---|---
-Model-1 | 73.66
-Model-2 | 73.85
-ensembled | 76.62
+Model-1(ensembled) | 73.66
+Model-2(ensembled) | 73.85
+1&2 ensembled | 76.62
 
 ## Project Structure
 
